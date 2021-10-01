@@ -7,7 +7,7 @@ void reverseAllpairs(int arr[],int n){
     {
         int x = arr[i];
 
-        for (int  j = i+1 ; j < n; j++)
+        for (int  j = i+1 ; j < n; j++) //if make it j=0 you will all the pairs
         {
             /* code */
             int y =arr[j];
